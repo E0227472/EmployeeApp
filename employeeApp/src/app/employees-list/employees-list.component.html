@@ -1,0 +1,6 @@
+<h1>Employees</h1>
+
+<div *ngFor="let employee of employees | async" style="width: 300px;">
+  <employee-details [employee]='employee'></employee-details>
+</div>
+
